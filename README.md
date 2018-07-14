@@ -20,6 +20,12 @@
   17. Numpy<br>
   18. Pandas<br>
 
+## Other Stuff
+  1. Assignments<br>
+  2. Mini Project - Helicopter Game<br>
+  3. Mini Project - Car Game<br>
+  4. Mini Project - Library Management System<br>
 
+## References
 <b>Time Complexity Analysis</b> <a href="https://www.youtube.com/playlist?list=PL2_aWCzGMAwI9HK8YPVBjElbLbI3ufctn"> CLICK HERE</a>
 
