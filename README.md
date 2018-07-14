@@ -1,7 +1,7 @@
 # python_notes
 
 <b>Chapters</b>
-  1.Intro to Python</ br>
+  1.Intro to Python<br \>
   2. Data Types- 1</ br>
   3. Data Types- 2</ br>
   4. Decision Statement</ br>
