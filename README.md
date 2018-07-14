@@ -1,6 +1,6 @@
 # python_notes
 
-<b>Chapters</b>
+<b>Chapters</b><br>
   1.Intro to Python<br \>
   2. Data Types- 1</ br>
   3. Data Types- 2</ br>
