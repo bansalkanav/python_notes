@@ -1,0 +1,5 @@
+{% extends "05-layout.html"%}
+{% block content %}
+<h1>This is the page for the puppy: {{name|capitalize}}.</h1>
+<img src="{{ url_for('static', filename='puppy_pic.jpg') }}" width='100%' height='auto' />
+{% endblock %}

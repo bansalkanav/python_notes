@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <p>Here we use a for loop for a list</p>
+    <ul>
+      {% for pup in puppies %}
+      <li>{{pup}}</li>
+      {% endfor %}
+    </ul>
+    <p>We can also add if/else statements</p>
+    {% if 'Scooby' in puppies %}
+      <p>Found you in the list of puppies Scooby!</p>
+    {%elif 'xyz' in puppies%}
+      <p>Found you in the list of puppies xyz!</p>
+    {% else %}
+      <p>Scooby isn't in this list.</p>
+    {% endif %}
+
+
+  </body>
+</html>
