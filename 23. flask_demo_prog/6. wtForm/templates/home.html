@@ -1,0 +1,19 @@
+
+<h1>Welcome to a Survey</h1>
+<form  method="POST">
+    {# This hidden_tag is a CSRF security feature. #}
+    {{ form.hidden_tag() }}
+    {{ form.username.label }} {{form.username}}
+    <br>
+    {{ form.grad.label}} {{form.grad}}
+    <br>
+    {{form.degree.label}}{{form.degree}}
+    <br>
+    {{form.language.label}}{{form.language}}
+    <br>
+    Any other feedback?
+    <br>
+    {{form.feedback}}
+   <br>
+    {{ form.submit() }}
+</form>

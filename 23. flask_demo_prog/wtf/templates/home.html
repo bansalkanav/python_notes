@@ -1,0 +1,15 @@
+<p>
+{% if username %}
+  The username you entered is {{username}}.<br />
+  You can update it in the form below:
+{% else %}
+  Please enter your username in the form below:
+{% endif %}
+</p>
+
+<form method="POST">
+    {# This hidden_tag is a CSRF security feature. #}
+    {{ form.hidden_tag() }}
+    {{ form.username.label }} {{ form.username }}
+    {{ form.submit }}
+</form>
