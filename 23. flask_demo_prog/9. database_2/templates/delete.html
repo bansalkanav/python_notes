@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="jumbotron">
+  <h1>Fill out the form to remove the user from the list.</h1>
+  <form method="POST">
+      {# This hidden_tag is a CSRF security feature. #}
+      {{ form.hidden_tag() }}
+    <div class="form-group">
+      {{ form.id.label }} {{ form.id(class="form-control") }}
+    </div>
+      {{ form.submit(class="btn btn-primary") }}
+  </form>
+</div>
+{% endblock %}

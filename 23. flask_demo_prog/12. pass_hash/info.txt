@@ -1,0 +1,8 @@
+When your website has user authentication, you will
+need to store their username and password.
+For security purposes, we will never want to store
+raw text of the password.
+
+There are two useful libraries for this:
+  bcrypt
+  werkzeug

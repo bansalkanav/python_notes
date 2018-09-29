@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="jumbotron">
+  <h1>Here is a list of all available Users.</h1>
+  <ul>
+    {% for user in users  %}
+    <li>{{user}}</li>
+    {% endfor %}
+  </ul>
+
+</div>
+{% endblock %}
