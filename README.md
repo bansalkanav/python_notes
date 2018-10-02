@@ -19,6 +19,11 @@
   16. GUI - 2<br>
   17. Numpy<br>
   18. Pandas<br>
+  19. Web - API<br>
+  20. Python Advance Topics<br>
+  21. Databases - SQLite<br>
+  22. Databases - MongoDB<br>
+  23. Web Framework - FLASK<br>
 
 ## Other Stuff
   1. Assignments<br>
